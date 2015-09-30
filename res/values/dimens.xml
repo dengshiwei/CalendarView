@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<!-- 日历边框 -->
+    <dimen name="calendar_border_margin">0dp</dimen>
+
+    <!-- 日历周名 -->
+    <dimen name="weekname_size">14dp</dimen>
+    <dimen name="weekname_margin">8dp</dimen>
+    <dimen name="day_size">18dp</dimen>
+    <dimen name="action_size">12dp</dimen>
+    <dimen name="day_top_offset">16dp</dimen>
+</resources>

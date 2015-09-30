@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 奇数行颜色 -->
+    <color name="even">#FFADD8E6</color>
+    <!-- 偶数行颜色 -->
+    <color name="border_color">#000000</color>
+    <color name="week_today">#0078ff</color>
+    <color name="week_name">#1FC2F3</color>
+    <color name="sunday_saturday_color">#fa4451</color>
+    <color name="date_background">#ffffff</color>
+    <color name="day_color">#000000</color>
+    <color name="inner_grid_color">#aaadb2</color>
+    <color name="prev_next_month_day_color">#AAAAAA</color>
+    <color name="text_color">#FFFF00</color>
+    <color name="recordremindtext_color">#000000</color>
+    <color name="current_day_color">#565656</color>
+    <color name="today_background_color">#FF0000</color>
+    <color name="today_color">#565656</color>
+    <color name="sunday_saturday_prev_next_month_day_color">#AAAAAA</color>
+    <color name="selectdeparment">#599cd5</color>
+    <color name="split_line_grey">#EBEBEB</color>
+    <color name="translate">#00000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="blue_black">#3bac</color>
+    <color name="green_black">#549008</color>
+</resources>
