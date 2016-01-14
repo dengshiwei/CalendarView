@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res/com.dsw.calendarview"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:orientation="vertical" >
     <!-- 日历时间选择栏 -->
@@ -10,20 +11,20 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:background="#ffffff"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:paddingTop="3dp">
         <ImageView
              android:id="@+id/iv_left"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:layout_alignParentLeft="true"
+             android:layout_marginLeft="20dp"
              android:contentDescription="@null"
              android:background="@drawable/left_arrow" />
       	<ImageView
              android:id="@+id/iv_right"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
+             android:layout_marginRight="20dp"
              android:layout_alignParentRight="true"
              android:contentDescription="@null"
              android:background="@drawable/right_arrow" />
@@ -53,34 +54,61 @@
               android:layout_height="wrap_content"
               android:gravity="center_horizontal"
               android:textColor="#93C73C"
-              android:textSize="20sp"
+              android:textSize="15sp"
               android:text="" />
-           <TextView
-              android:id="@+id/week_text"
+         </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <com.dsw.datepicker.WeekDayView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <com.dsw.datepicker.MonthDateView
+            android:id="@+id/monthDateView"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            calendar:EnableDateColor="#000000"
+            calendar:UnableDateColor="#CBCBCB"
+            calendar:CircleColor="#68CB00"
+            calendar:RelaxColor="#68CB00" 
+            calendar:WorkColor="#FF9B12"
+            calendar:PriceColor="#FF9B12"
+            calendar:SelectBGColor="#13A4D3"
+            calendar:CurrentColor="#68CB00"
+            calendar:DateHeight="35dp"
+            calendar:PriceSize="10sp"
+            calendar:DateSize="14sp"/>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FFFFFF">
+            <TextView
+              android:id="@+id/selectDate_text"
               style="@style/myschedule_current_month_tv"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:gravity="center_horizontal"
               android:layout_marginLeft="10dp"
+              android:layout_centerVertical="true"
               android:textColor="#93C73C"
-              android:textSize="20sp"
-              android:text="" />
-         </LinearLayout>
-    </RelativeLayout>
-    <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#ffffff"
-            android:orientation="vertical" >
-
-            <com.dsw.datepicker.WeekDayView
-                android:layout_width="match_parent"
-                android:layout_height="30dp" />
-            <com.dsw.datepicker.MonthDateView
-                android:id="@+id/monthDateView"
-                android:layout_width="fill_parent"
-                android:layout_height="200dp" />
-        </LinearLayout>
+              android:textSize="17sp"
+              android:text="2月25日	周四" />
+            <TextView
+              android:id="@+id/selectDate_description"
+              style="@style/myschedule_current_month_tv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:textColor="#93C73C"
+              android:textSize="15sp"
+              android:text="展示其它信息" />
+        </RelativeLayout>
+        
+   </LinearLayout>
 </LinearLayout>

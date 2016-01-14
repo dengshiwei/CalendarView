@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalendarView">
+        <attr name="EnableDateColor" format="reference|color"/>
+        <attr name="UnableDateColor" format="reference|color"/>
+        <attr name="CurrentColor" format="reference|color"/>
+        <attr name="SelectBGColor" format="reference|color"/>
+        <attr name="CircleColor" format="reference|color"/>
+        <attr name="RelaxColor" format="reference|color"/>
+        <attr name="WorkColor" format="reference|color"/>
+        <attr name="PriceColor" format="reference|color"/>
+        <attr name="DateSize" format="dimension"/>
+        <attr name="PriceSize" format="dimension"/>
+        <attr name="DateHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

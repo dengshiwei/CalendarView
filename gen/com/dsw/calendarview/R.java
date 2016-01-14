@@ -12,6 +12,84 @@ public final class R {
         public static final int week_name=0x7f070000;
     }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int CircleColor=0x7f010004;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int CurrentColor=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int DateHeight=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int DateSize=0x7f010008;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int EnableDateColor=0x7f010000;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int PriceColor=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int PriceSize=0x7f010009;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int RelaxColor=0x7f010005;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int SelectBGColor=0x7f010003;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int UnableDateColor=0x7f010001;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int WorkColor=0x7f010006;
     }
     public static final class color {
         public static final int blue_black=0x7f040013;
@@ -68,15 +146,16 @@ public final class R {
         public static final int right_arrow=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0008;
+        public static final int action_settings=0x7f0a0009;
+        public static final int calendarView=0x7f0a0008;
         public static final int date_operator_ll=0x7f0a0002;
         public static final int date_text=0x7f0a0004;
-        public static final int id_content=0x7f0a0007;
         public static final int iv_left=0x7f0a0000;
         public static final int iv_right=0x7f0a0001;
-        public static final int monthDateView=0x7f0a0006;
+        public static final int monthDateView=0x7f0a0005;
+        public static final int selectDate_description=0x7f0a0007;
+        public static final int selectDate_text=0x7f0a0006;
         public static final int tv_today=0x7f0a0003;
-        public static final int week_text=0x7f0a0005;
     }
     public static final class layout {
         public static final int activity_date=0x7f030000;
@@ -119,4 +198,185 @@ public final class R {
         public static final int AppTheme=0x7f080001;
         public static final int myschedule_current_month_tv=0x7f080002;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CalendarView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CalendarView_CircleColor com.dsw.calendarview:CircleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_CurrentColor com.dsw.calendarview:CurrentColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_DateHeight com.dsw.calendarview:DateHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_DateSize com.dsw.calendarview:DateSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_EnableDateColor com.dsw.calendarview:EnableDateColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_PriceColor com.dsw.calendarview:PriceColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_PriceSize com.dsw.calendarview:PriceSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_RelaxColor com.dsw.calendarview:RelaxColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_SelectBGColor com.dsw.calendarview:SelectBGColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_UnableDateColor com.dsw.calendarview:UnableDateColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CalendarView_WorkColor com.dsw.calendarview:WorkColor}</code></td><td></td></tr>
+           </table>
+           @see #CalendarView_CircleColor
+           @see #CalendarView_CurrentColor
+           @see #CalendarView_DateHeight
+           @see #CalendarView_DateSize
+           @see #CalendarView_EnableDateColor
+           @see #CalendarView_PriceColor
+           @see #CalendarView_PriceSize
+           @see #CalendarView_RelaxColor
+           @see #CalendarView_SelectBGColor
+           @see #CalendarView_UnableDateColor
+           @see #CalendarView_WorkColor
+         */
+        public static final int[] CalendarView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#CircleColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:CircleColor
+        */
+        public static final int CalendarView_CircleColor = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#CurrentColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:CurrentColor
+        */
+        public static final int CalendarView_CurrentColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#DateHeight}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dsw.calendarview:DateHeight
+        */
+        public static final int CalendarView_DateHeight = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#DateSize}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dsw.calendarview:DateSize
+        */
+        public static final int CalendarView_DateSize = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#EnableDateColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:EnableDateColor
+        */
+        public static final int CalendarView_EnableDateColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#PriceColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:PriceColor
+        */
+        public static final int CalendarView_PriceColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#PriceSize}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.dsw.calendarview:PriceSize
+        */
+        public static final int CalendarView_PriceSize = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#RelaxColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:RelaxColor
+        */
+        public static final int CalendarView_RelaxColor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#SelectBGColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:SelectBGColor
+        */
+        public static final int CalendarView_SelectBGColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#UnableDateColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:UnableDateColor
+        */
+        public static final int CalendarView_UnableDateColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.dsw.calendarview.R.attr#WorkColor}
+          attribute's value can be found in the {@link #CalendarView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name com.dsw.calendarview:WorkColor
+        */
+        public static final int CalendarView_WorkColor = 6;
+    };
 }

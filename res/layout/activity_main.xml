@@ -2,13 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<com.dsw.datepicker.CalendarView
+	    android:id="@+id/calendarView"
+	    android:layout_height="300dp"
+	    android:layout_width="match_parent" 
+	    />
 
-    <FrameLayout
-        android:id="@+id/id_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_width="fill_parent"  
-        android:layout_height="fill_parent">  
-    </FrameLayout>
 </RelativeLayout>
