@@ -40,7 +40,7 @@ public class MonthDateView extends View {
 	private int mDateHeight;
 	private int mCurrYear,mCurrMonth,mCurrDay;
 	private int mSelYear,mSelMonth,mSelDay;
-	private int mColumnSize,mRowSize;
+	private float mColumnSize,mRowSize;
 	private int mDaySize,mPriceSize;
 	private TextView tv_date,tv_week;
 	private int weekRow;
@@ -111,16 +111,16 @@ public class MonthDateView extends View {
 				holiday = dayString;
 			}
 			
-			int startX = (int) (mColumnSize * column + (mColumnSize - mPaint.measureText(holiday))/2);
-			int startY = (int) (mRowSize * row + mRowSize/2 - (mPaint.ascent() + mPaint.descent())/2);
+			float startX = mColumnSize * column + (mColumnSize - mPaint.measureText(holiday))/2;
+			float startY = mRowSize * row + mRowSize/2 - (mPaint.ascent() + mPaint.descent())/2;
 			
 			//绘制背景白块
 			if(!TextUtils.isEmpty(isdayAndPriceList(day + 1))){
 				//绘制背景色矩形
-				int startRecX = mColumnSize * column + mMarginSize;
-				int startRecY = mRowSize * row + mMarginSize;
-				int endRecX = startRecX + mColumnSize - 2 * mMarginSize;
-				int endRecY = startRecY + mRowSize - 2 *mMarginSize;
+				float startRecX = mColumnSize * column + mMarginSize;
+				float startRecY = mRowSize * row + mMarginSize;
+				float endRecX = startRecX + mColumnSize - 2 * mMarginSize;
+				float endRecY = startRecY + mRowSize - 2 *mMarginSize;
 				mPaint.setColor(mSelectDayColor);
 				mPaint.setStyle(Style.FILL);
 				canvas.drawRect(startRecX, startRecY, endRecX, endRecY, mPaint);
@@ -128,10 +128,10 @@ public class MonthDateView extends View {
 			
 			if(dayString.equals(mSelDay+"")){
 				//绘制背景色矩形
-				int startRecX = mColumnSize * column + mMarginSize;
-				int startRecY = mRowSize * row + mMarginSize;
-				int endRecX = startRecX + mColumnSize - 2 * mMarginSize;
-				int endRecY = startRecY + mRowSize - 2 *mMarginSize;
+				float startRecX = mColumnSize * column + mMarginSize;
+				float startRecY = mRowSize * row + mMarginSize;
+				float endRecX = startRecX + mColumnSize - 2 * mMarginSize;
+				float endRecY = startRecY + mRowSize - 2 *mMarginSize;
 				mPaint.setColor(mSelectBGColor);
 				mPaint.setStyle(Style.FILL);
 				canvas.drawRect(startRecX, startRecY, endRecX, endRecY, mPaint);
@@ -359,7 +359,7 @@ public class MonthDateView extends View {
 	 * 初始化列宽行高
 	 */
 	private void initSize(){
-		mColumnSize = getWidth() / NUM_COLUMNS;
+		mColumnSize = getWidth() *1.0F/ NUM_COLUMNS;
 	}
 	
 	/**
@@ -400,8 +400,8 @@ public class MonthDateView extends View {
 	 * @param y
 	 */
 	private void doClickAction(int x,int y){
-		int row = y / mRowSize;
-		int column = x / mColumnSize;
+		int row = (int) (y / mRowSize);
+		int column = (int) (x / mColumnSize);
 		if(TextUtils.isEmpty(isdayAndPriceList(daysString[row][column])))return;
 		setSelectYearMonth(mSelYear,mSelMonth,daysString[row][column]);
 		invalidate();
