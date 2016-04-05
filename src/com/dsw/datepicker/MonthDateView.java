@@ -49,7 +49,9 @@ public class MonthDateView extends View {
 	private DateClick dateClick;
 	private int mMarginSize =1;
 	private int minYear,minMonth,minDay,maxYear,maxMonth;
+	//记录是否为国家房顶假日
 	private List<WorkOrRelax> daysWorkOrRelaxList = new ArrayList<WorkOrRelax>();
+	//DayAndPrice实体集合，用于存储指定日期的价格
 	private List<DayAndPrice> dayAndPriceList = new ArrayList<DayAndPrice>();
 	private int mTouchSlop;
 	public MonthDateView(Context context, AttributeSet attrs) {
@@ -110,7 +112,8 @@ public class MonthDateView extends View {
 			if(TextUtils.isEmpty(holiday)){
 				holiday = dayString;
 			}
-			
+
+			mPaint.setTextSize(mDaySize);
 			float startX = mColumnSize * column + (mColumnSize - mPaint.measureText(holiday))/2;
 			float startY = mRowSize * row + mRowSize/2 - (mPaint.ascent() + mPaint.descent())/2;
 			
@@ -142,7 +145,6 @@ public class MonthDateView extends View {
 			drawCircle(row,column,day + 1,canvas);
 			//绘制休、上班
 			drawWorkOrRelax(row,column,day + 1,canvas);
-			mPaint.setTextSize(mDaySize);
 			mPaint.setStyle(Style.STROKE);
 			if(dayString.equals(mSelDay+"")){
 				String price = isdayAndPriceList(day+1);

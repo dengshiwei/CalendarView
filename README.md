@@ -1,9 +1,9 @@
-# CalendarView
-一个日历控件,用于展示我们的业务数据，相比较上一次的实现，这次的实现改版了很多自定义属性。同时丰富了我们的模版样例，增加了农历节日的展示。
+##概述
+这是一个自定义的View，谈不上项目，只是简单的实现了项目需求中的日历样式，所以特此记录分享给大家。
 
 ![效果图](http://img.blog.csdn.net/20160114115328099)
 
-###自定义属性
+###一、自定义属性
 
 	<resources>
 	    <declare-styleable name="CalendarView">
@@ -21,6 +21,15 @@
 	    </declare-styleable>
 	</resources>
 
-使用很简单，星期和日期、顶部的标识都是分开模块实现的，可以根据需求进行组合使用。提高定制的灵活性。事务的设置通过DayAndPrice实体进行封装，WorkOrRelax封装我们的节假日。下面的效果图中就是集成组合出来的。具体的实例可以clone一份看看。
+这是该自定义View中所涉及到的自定义属性，主要用于设置一些字体颜色、背景色之类的属性。
+
+###二、国家法定假日“班”、“休”的设置
+
+	private List<DayAndPrice> listDayAndPrice
+	private List<WorkOrRelax> listWorkOrRelax
+
+我们通过这两个集合进行存储，然后绘制。
+
+具体实现大家拷贝源码吧！
 
 [博客](http://blog.csdn.net/mr_dsw/article/details/48755993)
