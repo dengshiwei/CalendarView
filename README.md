@@ -1,6 +1,8 @@
 ##概述
 这是一个自定义的View，谈不上项目，只是简单的实现了项目需求中的日历样式，所以特此记录分享给大家。
 
+>这个工程项目已经不进行维护更新了，这是项目初期做的一个自定义View，现在已经新开一个库进行了重构，重新开发。新库欢迎大家star。新库地址会持续完善更新，地址[CalendarComponent](https://github.com/dengshiwei/CalendarComponent)
+
 ![效果图](http://img.blog.csdn.net/20160114115328099)
 
 ###一、自定义属性
